@@ -233,6 +233,13 @@ body {
         padding: 25px 10px;
     }
 
+    .pie{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding-bottom: 3em;
+    }
+
 }
 
 .mostrar {
@@ -244,56 +251,3 @@ body {
     display: none;
 }
 
-footer{
-    bottom: -10px;
-}
-.textofooter{
-    text-align: center;  
-    width: 100%;
-    height: 8%;
-    bottom: -3px;
-    position:fixed;
-    background-color: rgba(80, 78, 114, 0.062);
-    color: var(--colorAlura);
-    font-family: var(--textSerif);
-}
-
-.iconogithub{
-    width: 33px;
-    height: 8%;
-    bottom: -10px;
-    right: 59.5%;
-    align-items: start;
-    position: fixed;
-}
-
-.iconolinkedin{
-    width: 32px;
-    height: 8%;
-    bottom: -10px;
-    right: 37%;
-    align-items: start;
-    position: fixed;
-}
-
-.linkgithub{
-    font-size: 34px;
-    color:rgba(2, 2, 3, 0);
-    width: 33px;
-    height: 8%;
-    bottom: -43px;
-    right: 59.5%;
-    align-items: start;
-    position: fixed;
-}
-
-.linklinkedin{
-    font-size: 34px;
-    color:rgba(2, 2, 3, 0);
-    width: 33px;
-    height: 8%;
-    bottom: -43px;
-    right: 36.8%;
-    align-items: start;
-    position: fixed;
-}
